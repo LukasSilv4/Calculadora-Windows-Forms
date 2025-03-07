@@ -177,7 +177,7 @@ namespace WinFormsApp1_teste_calculadora
                     break;
             }
             
-            Resultado = Valor / Convert.ToDecimal(textBox1.Text);
+           
                     textBox1.Text = Convert.ToString(Resultado);
             label1.Text = "=";
         }
